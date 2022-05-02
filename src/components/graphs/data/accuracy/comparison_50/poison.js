@@ -1,7 +1,7 @@
 export const poisoning = {
   type: "scatter",
 
-  x: Array.from({ length: 50 }, (_, x) => x + 1),
+  x: Array.from({ length: 30 }, (_, x) => x + 1),
   y: [
     94.41, 96.02, 96.61, 97.24, 97.43, 97.78, 97.93, 97.99, 98.08, 98.18, 98.2,
     98.19, 98.23, 98.26, 98.28, 98.32, 98.32, 98.32, 98.31, 98.33, 98.29, 98.24,
@@ -10,5 +10,5 @@ export const poisoning = {
     98.21, 98.19, 98.21, 98.21, 98.19, 98.19,
   ],
   mode: "lines+marker",
-  name: 'poisoning'
+  name: 'Label Attack'
 };
